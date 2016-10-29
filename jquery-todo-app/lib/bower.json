@@ -1,0 +1,20 @@
+{
+  "name": "sass",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Zoe Ames <kilgore.josh@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jkillz2020/api-demo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
