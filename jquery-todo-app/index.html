@@ -6,17 +6,20 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
-<body>
-<h1>JQUERY PROCRASTINATION</h1>
+<body id="bootstrap-override">
+<h1>JQUERY PROCRASTINATION LIST</h1>
 
   <div class="panel panel-default search-bar col-md-4">
   <div class="panel-body">
-  <input class="form-control" type="text" id="todo-search" placeholder="Add Item to List">
+  <input class="form-control" type="text" id="todo-input" placeholder="Add Item To List">
   <button type="button" class="btn btn-primary btn-lg" id="clicky-button">Add item</button>
   </div>
 </div>
 
-<div id="output">
+<div class ="col-md-4" id="output">To Do
+</div>
+
+<div class ="col-md-4" id="completed">Completed
 </div>
   
 </body>

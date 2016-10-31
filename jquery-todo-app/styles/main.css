@@ -1,2 +1,12 @@
 body {
   background-color: lightblue; }
+
+#output {
+  background-color: orange; }
+
+#completed {
+  background-color: green; }
+
+.btn-space {
+  margin: 5px;
+  display: block; }
