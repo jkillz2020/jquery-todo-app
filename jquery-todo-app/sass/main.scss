@@ -2,15 +2,31 @@ body{
   background-color: lightblue;
 }
 
-#output{
-background-color: orange;
+// #output{
+// background-color: orange;
+// }
+
+// #completed{
+// background-color: green;
+// }
+
+// .btn-space{
+// margin: 5px;
+// display: block;
+// }
+.form-signin-heading{
+  text-align: center;
 }
 
-#completed{
-background-color: green;
+ul li.editMode input[type=text] {
+ display:block;
 }
 
-.btn-space{
-margin: 5px;
-display: block;
+ul li.editMode label {
+ display:none;
 }
+
+.inputTask{
+ display:none;
+}
+

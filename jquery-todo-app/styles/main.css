@@ -1,12 +1,14 @@
 body {
   background-color: lightblue; }
 
-#output {
-  background-color: orange; }
+.form-signin-heading {
+  text-align: center; }
 
-#completed {
-  background-color: green; }
-
-.btn-space {
-  margin: 5px;
+ul li.editMode input[type=text] {
   display: block; }
+
+ul li.editMode label {
+  display: none; }
+
+.inputTask {
+  display: none; }
